@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <title>Reverse Palindrome , Sum of Digits</title>
+  </head>
+  <body>
+<h1> Reverse , Palindrome , Sum of Digits </h1>
+	<script>
+		var num = parseInt(prompt("enter a number"));
+		var ld,a,sum = 0,rev = 0;
+		temp = num;	
+		while(num>0){
+			ld = num % 10;
+			sum = sum + ld;
+			num = Math.floor(num / 10);			
+}
+document.write(" sum of digits is " +sum);
+		num = temp;
+		while(num>0){
+			ld = num % 10;
+			rev = rev * 10 + ld;
+			num = Math.floor(num / 10);
+			
+						
+}
+document.write(rev);
+
+       </script>
+  </body>
+</html>
