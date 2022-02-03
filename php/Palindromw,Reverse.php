@@ -22,8 +22,9 @@
                 echo "Reverse of $temp is $reverse <br>";
                 echo "Sum of digits of $reverse is $sum <br>";
 
-                if($temp==$reverse)
+                if($temp==$reverse){
                     echo "$temp is palindrome";
+                }
             }
             ?>
     </body>
