@@ -1,0 +1,21 @@
+
+<html lang="en">
+<head>
+    <title>Change on click</title>
+</head>
+<body>
+    <h2>Click Button to change image</h2>
+    <div> 
+        <img id="image" src="../assets/Samsung-Galaxy-S22-Ultra-S-Pen.webp" width="750" height="400"> 
+    </div>
+    <button style="margin:5px; padding:5px;" onclick=changeImage()> Click to change </button>
+
+
+    <script> 
+        function changeImage() {
+            document.getElementById("image").src = "../assets/25-samsung-galaxy-s20-plus.jpg"
+            
+        }
+    </script>
+</body>
+</html>
