@@ -12,4 +12,5 @@ for($i = 0; $i < $arrlength; $i++) {
   echo "<br>";
 }
 }
+sorting($numbers);
 ?>
