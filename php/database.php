@@ -1,9 +1,4 @@
 <html>
-<head>
-<title>
-CRUD Operations
-</title>
-</head>
 <body>
 
 <form method="post" action="#">
