@@ -1,10 +1,5 @@
 <!-- Prime numbers within a range -->
 <html>
-<head>
-<title>
-Prime numbers
-</title>
-</head>
 <body>
 
 <form name="form" action="#" method="post">
