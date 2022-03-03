@@ -2,7 +2,7 @@
 <body>
 <h1>Armstrong Numbers </h1>
 <form method="POST" action = "#">
-<input type="number" name="number" placeholder="NumberHere"/>
+<input type="number" name="number" />
 <button name="submit" type="submit">Submit</button>
 </form>
 <?php
